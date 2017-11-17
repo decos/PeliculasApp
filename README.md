@@ -26,3 +26,26 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## CREAR CUENTA EN THEMOVIEDB.ORG
+
+	Recursos:
+		- https://www.themoviedb.org/account/signup
+		- https://www.themoviedb.org/settings/api
+		- https://www.themoviedb.org/talk/5a0e57cdc3a3686292006143
+
+1. Ingresar al formulario haciendo clic en el primer `recurso`
+
+2. Esperar el correo de verificación y hacer clic en la primera URL
+
+3. Ir al segundo `recurso` y solicitar la creacion de una nueva `API key`
+
+4. Elegir una cuenta `developer`, aceptar los `Términos de Uso` 
+
+	Formulario:
+		- Dirección 1: Lo más real posible (MAPS)
+		- Código Postal: 051
+		- Número de Teléfono: #Celular inventado
+
+5. Revisar el correo y hacer clic en la URL para acceder a los datos de la nueva API creada
+
