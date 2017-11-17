@@ -43,9 +43,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 4. Elegir una cuenta `developer`, aceptar los `Términos de Uso` 
 
 5. Formulario:
-		* Dirección 1: Lo más real posible (MAPS)
-		* Código Postal: 051
-		* Número de Teléfono: #Celular inventado
+		> Dirección 1: Lo más real posible (MAPS)
+		> Código Postal: 051
+		> Número de Teléfono: #Celular inventado
 
 5. Revisar el correo y hacer clic en la URL para acceder a los datos de la nueva API creada
 
