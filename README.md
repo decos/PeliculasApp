@@ -51,3 +51,31 @@ Formulario:
 
 5. Revisar el correo y hacer clic en la URL para acceder a los datos de la nueva API creada
 
+##JSONP - PETICIONES CROSS DOMAIN
+
+	Recursos:
+		- https://es.wikipedia.org/wiki/JSONP
+		- https://www.themoviedb.org/settings/api
+		- https://www.themoviedb.org/documentation/api/discover
+
+~~~
+En la técnica de JSONP, el objeto JSON se devuelve envuelto en la llamada de una función. 
+De esta forma, una función ya definida en el entorno de JavaScript podría manipular los datos JSON 
+~~~
+
+1. Crear un nuevo proyecto:
+	- ng new peliculasApp
+
+2. Crear un servicio `peliculas`
+	- ng g s services/peliculas --spec=false
+
+3. Crear el componente `demo`
+	- ng g c components/demo -is --spec=false
+
+4. Importar los modulos (`HttpModule`, `JsonpModule`) en módulo principal
+
+5. Importar la clase `Jsonp` al servicio creado y crear las funcion `getPopulares`
+
+6. Importar el servicio `peliculas` en el módulo principal
+
+7. Importar el servicio `peliculas` en el componente principal
