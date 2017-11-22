@@ -51,7 +51,7 @@ Formulario:
 
 5. Revisar el correo y hacer clic en la URL para acceder a los datos de la nueva API creada
 
-##JSONP - PETICIONES CROSS DOMAIN
+## JSONP - PETICIONES CROSS DOMAIN
 
 	Recursos:
 		- https://es.wikipedia.org/wiki/JSONP
@@ -79,3 +79,8 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 6. Importar el servicio `peliculas` en el módulo principal
 
 7. Importar el servicio `peliculas` en el componente principal
+
+## JSONP - ¿COMO USAR LOS SERVICIOS DE THEMOVIEDB?
+
+
+
