@@ -82,5 +82,13 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 
 ## JSONP - ¿COMO USAR LOS SERVICIOS DE THEMOVIEDB?
 
+	Rcursos:
+		- https://www.themoviedb.org/documentation/api/discover
+		- Poster path: http://image.tmdb.org/t/p/w300/iYDhZ0L6yy6lDpqgLUU5Dwv3WM1.jpg
+		- Poster path: http://image.tmdb.org/t/p/w500/iYDhZ0L6yy6lDpqgLUU5Dwv3WM1.jpg
+		- Backdrop path: http://image.tmdb.org/t/p/w500/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg
+		- Backdrop path: http://image.tmdb.org/t/p/w600/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg
+
+
 
 
