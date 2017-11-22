@@ -89,6 +89,19 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 		- Backdrop path: http://image.tmdb.org/t/p/w500/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg
 		- Backdrop path: http://image.tmdb.org/t/p/w600/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg
 
+## CREACION DE LOS COMPONENTES DE LA APLICACION
 
+	Recursos:
+		- Navbar: https://getbootstrap.com/docs/4.0/components/navbar/
 
+1. Crear el componente `navbar`
+	- ng g c components/navbar -is
+	
+2. Crear el componente `home`
+	- ng g c components/home -is
+
+3. Crear el componente `pelicula`
+	- ng g c components/pelicula -is
+
+4. Copiar el codigo de primer recurso en la vista del componente `navbar`
 

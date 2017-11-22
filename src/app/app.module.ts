@@ -8,11 +8,17 @@ import { HttpModule, JsonpModule } from '@angular/http';
 
 //Import service
 import { PeliculasService } from './services/peliculas.service';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { PeliculaComponent } from './components/pelicula/pelicula.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DemoComponent
+    DemoComponent,
+    NavbarComponent,
+    HomeComponent,
+    PeliculaComponent
   ],
   imports: [
     BrowserModule,
