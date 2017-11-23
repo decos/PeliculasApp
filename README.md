@@ -92,7 +92,7 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 ## CREACION DE LOS COMPONENTES DE LA APLICACION
 
 	Recursos:
-		- Navbar: https://getbootstrap.com/docs/4.0/components/navbar/
+		- Navbar: https://getbootstrap.com/docs/4.0/components/navbar/ (penúltimo navbar)
 
 1. Crear el componente `navbar`
 	- ng g c components/navbar -is
@@ -104,4 +104,23 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 	- ng g c components/pelicula -is
 
 4. Copiar el codigo de primer recurso en la vista del componente `navbar`
+	- Realizar las modificaciones necesarias y adaptarlo a lo que deseamos
+	- LLamar al componente `navbar` desde la vista principal para probar
+
+5. Crear el componente `buscar`
+	- ng g c components/buscar -is
+
+6. Crear el archivo de rutas llamado `app.routes.ts`
+	- Importar la constante al modulo principal 
+
+7. Añadir lo siguiente en la vista del componente principal
+	- <router-outlet></router-outlet>
+
+8. Añadir `routerLinkActive`y `routerLink` en la vista del componente `navbar`
+
+
+
+
+
+
 

@@ -8,9 +8,12 @@ import { HttpModule, JsonpModule } from '@angular/http';
 
 //Import service
 import { PeliculasService } from './services/peliculas.service';
+//Import Routes
+import { APP_ROUTING } from './app.routes';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { PeliculaComponent } from './components/pelicula/pelicula.component';
+import { BuscarComponent } from './components/buscar/buscar.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +21,14 @@ import { PeliculaComponent } from './components/pelicula/pelicula.component';
     DemoComponent,
     NavbarComponent,
     HomeComponent,
-    PeliculaComponent
+    PeliculaComponent,
+    BuscarComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    JsonpModule
+    JsonpModule,
+    APP_ROUTING
   ],
   providers: [
     PeliculasService
