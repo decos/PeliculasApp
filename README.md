@@ -118,9 +118,16 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 
 8. Añadir `routerLinkActive`y `routerLink` en la vista del componente `navbar`
 
+## DISEÑO DE LA PANTALLA 'HOME' Y USO DE SERVICIOS
 
+	Recursos:
+		- Jumbotron: https://getbootstrap.com/docs/4.0/components/jumbotron/ (usar el 2do)
 
+1. Añadir el `Jumbotron` a la vista del componente `home`
 
+2. Añadir el servicio `getCartelera` 
+
+3. Inyectar el servicio en el componente `home` y llamar la funcion `getCartelera`
 
 
 
