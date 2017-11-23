@@ -33,6 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 		- https://www.themoviedb.org/account/signup
 		- https://www.themoviedb.org/settings/api
 		- https://www.themoviedb.org/talk/5a0e57cdc3a3686292006143
+		- https://developers.themoviedb.org
 
 1. Ingresar al formulario haciendo clic en el primer `recurso`
 
@@ -129,5 +130,7 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 
 3. Inyectar el servicio en el componente `home` y llamar la funcion `getCartelera`
 
+4. Añadir el archivo adjunto `styles.css` a la raiz del proyecto.
 
+5. Codear la estructura de la vista del componente `home`
 
