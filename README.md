@@ -134,3 +134,19 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 
 5. Codear la estructura de la vista del componente `home`
 
+## PIPE PARA CONTROLAR LAS IMÁGENES DE LAS PELÍCULAS
+
+1. Crear el directorio `pipes` dentro del directorio `app`
+
+2. Crear el pipe `peliculaImagen`
+	- ng g p pipes/peliculaImagen
+
+3. Crear el directorio `img` dentro del directorio `assets`
+	- Añadir la imagen `No Image Available`
+
+4. Codear el Pipe
+
+5. Modificar la vista del componente `home` para consumir el `pipe`
+
+6. Modificar los servicios para que solo devuelva los resultados
+

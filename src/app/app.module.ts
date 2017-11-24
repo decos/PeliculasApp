@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { DemoComponent } from './components/demo/demo.component';
 //Import next components
 import { HttpModule, JsonpModule } from '@angular/http';
-
+//Import Pipe
+import { PeliculaImagenPipe } from './pipes/pelicula-imagen.pipe';
 //Import service
 import { PeliculasService } from './services/peliculas.service';
 //Import Routes
@@ -15,6 +16,7 @@ import { HomeComponent } from './components/home/home.component';
 import { PeliculaComponent } from './components/pelicula/pelicula.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { BuscarComponent } from './components/buscar/buscar.component';
     NavbarComponent,
     HomeComponent,
     PeliculaComponent,
-    BuscarComponent
+    BuscarComponent,
+    PeliculaImagenPipe
   ],
   imports: [
     BrowserModule,

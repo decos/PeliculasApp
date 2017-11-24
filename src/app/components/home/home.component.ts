@@ -9,11 +9,14 @@ import { PeliculasService } from '../../services/peliculas.service';
 })
 export class HomeComponent implements OnInit {
 
+  cartelera:any;
+
   constructor( public _ps:PeliculasService ) {
 
     this._ps.getCartelera()
         .subscribe( data => {
           console.log("Home data:", data);
+          this.cartelera = data;
         })
 
   }
