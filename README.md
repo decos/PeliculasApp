@@ -150,3 +150,19 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 
 6. Modificar los servicios para que solo devuelva los resultados
 
+## ENVIAR Y RECIBIR INFORMACIÓN DE UN COMPONENTE
+
+1. Crear un componente llamado `galeria`
+	- ng g c components/home/galeria -is --flat
+
+2. Importar el modulo `Input` al componente `galeria`
+	- Ese `Input` es como decirle a angular, esta informacion vendra fuera del componente
+
+3. Copiar y pegar todo lo relacionado al div `peliculas` en la vista del componente `galeria`
+
+4. Llamar al componente `galeria` desde la vista `home`
+
+5. Se agrega todos los campos que se le pasara al componente `galeria`
+	- Si `titulo` no tuviese un valor en `duro` debería ir entre corchetes
+
+
