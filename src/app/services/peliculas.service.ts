@@ -10,6 +10,8 @@ export class PeliculasService {
   private apikey:string = "1e27f63546b40c7c8a473a7dae5443a6";
   private urlMoviedb:string = "https://api.themoviedb.org/3";
 
+  peliculas:any[] = [];
+
   constructor( private jsonp:Jsonp ) { }
 
   //Obtener peliculas para niños - What are the most popular kids movies?
@@ -54,7 +56,11 @@ export class PeliculasService {
     let url = `${ this.urlMoviedb }/search/movie?query=${ texto }&sort_by=popularity.desc&api_key=${ this.apikey }&language=es&callback=JSONP_CALLBACK`;
 
     return this.jsonp.get( url )
-                .map( res=> res.json().results);
+                .map( res=> {
+                  this.peliculas = res.json().results;
+                  console.log("peliculas: ", this.peliculas);
+                  return res.json().results
+                });
   }
 
 }

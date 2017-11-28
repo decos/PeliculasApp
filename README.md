@@ -165,4 +165,29 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 5. Se agrega todos los campos que se le pasara al componente `galeria`
 	- Si `titulo` no tuviese un valor en `duro` debería ir entre corchetes
 
+## COMPONENTE DE BÚSQUEDA
+
+	Recursos:
+		- https://getbootstrap.com/docs/4.0/components/card/
+
+1. Importar al modulo principal `FormsModule` y añadirlo en `imports`
+	- import { FormsModule } from '@angular/forms';
+
+1. Codear la vista del componente `buscar`
+
+2. Añadir la variable `buscar` y codear la función `buscarPelicula` en el componente `buscar`
+
+3. Importar el servicio `PeliculasService` en el componente `buscar` para llamar al servicio `buscarPelicula`
+
+4. Añadir la variable `peliculas` al servicio de tipo `any`
+
+5. Modificar el servicio `buscarPelicula`
+
+6. Copiar la primera tarjeta del div `card-columns` (Card columns)
+
+7. Añadir a la tarjeta la directa *ngFor para que recorra los posibles resultados que se ingresa por la entrada `buscar`
+
+8. Codear la imagen , el titulo y la descripcion de la tarjeta
+
+9. Añadir un boton `Ver más`
 
