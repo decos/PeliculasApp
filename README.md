@@ -173,21 +173,40 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 1. Importar al modulo principal `FormsModule` y añadirlo en `imports`
 	- import { FormsModule } from '@angular/forms';
 
-1. Codear la vista del componente `buscar`
+2. Codear la vista del componente `buscar`
 
-2. Añadir la variable `buscar` y codear la función `buscarPelicula` en el componente `buscar`
+3. Añadir la variable `buscar` y codear la función `buscarPelicula` en el componente `buscar`
 
-3. Importar el servicio `PeliculasService` en el componente `buscar` para llamar al servicio `buscarPelicula`
+4. Importar el servicio `PeliculasService` en el componente `buscar` para llamar al servicio `buscarPelicula`
 
-4. Añadir la variable `peliculas` al servicio de tipo `any`
+5. Añadir la variable `peliculas` al servicio de tipo `any`
 
-5. Modificar el servicio `buscarPelicula`
+6. Modificar el servicio `buscarPelicula`
 
-6. Copiar la primera tarjeta del div `card-columns` (Card columns)
+7. Copiar la primera tarjeta del div `card-columns` (Card columns)
 
-7. Añadir a la tarjeta la directa *ngFor para que recorra los posibles resultados que se ingresa por la entrada `buscar`
+8. Añadir a la tarjeta la directa *ngFor para que recorra los posibles resultados que se ingresa por la entrada `buscar`
 
-8. Codear la imagen , el titulo y la descripcion de la tarjeta
+9. Codear la imagen , el titulo y la descripcion de la tarjeta
 
-9. Añadir un boton `Ver más`
+10. Añadir un boton `Ver más`
+
+## BÚSQUEDA DEL NAVBAR
+
+1. Agregar la propiedad `ngSubmit` al formulario que esta en la vista del componente `navbar`
+
+2. Añadir el identificardor de la única entrada que esta dentro del formulario `#buscar`
+
+3. Codear la funcion `buscarPelicula` al componente `navbar`
+
+4. Añadir una nueva ruta al archivo de configuracion de rutas `app.routes.ts`
+	- { path: 'buscar/:texto', component: BuscarComponent },
+
+5. Importar la clase `Router` en el componente `navbar`
+	- Inyectarlo en constructor
+	- Usarlo en la funcion `buscarPelicula`
+
+6. Importar la clase `ActivatedRoute` en el componente `buscar`
+	- Inyectarlo en constructor
+	- Usarlo en el constructor
 
