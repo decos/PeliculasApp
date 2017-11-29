@@ -14,9 +14,6 @@ export class PeliculasService {
 
   constructor( private jsonp:Jsonp ) { }
 
-  //Obtener peliculas para niños - What are the most popular kids movies?
-
-
   //Obtener peliculas de la cartelera - What movies are in theatres?
   getCartelera(){
     let desde = new Date();
@@ -43,6 +40,7 @@ export class PeliculasService {
                 .map( res=> res.json().results);
   }
 
+  //Obtener peliculas para niños - What are the most popular kids movies?
   getPopularesNinos(){
 
     let url = `${ this.urlMoviedb }/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc&api_key=${ this.apikey }&language=es&callback=JSONP_CALLBACK`;
@@ -62,5 +60,15 @@ export class PeliculasService {
                   return res.json().results
                 });
   }
+
+  getPelicula( id:string ){
+
+    let url = `${ this.urlMoviedb }/movie/${ id }?api_key=${ this.apikey }&language=es&callback=JSONP_CALLBACK`;
+
+    return this.jsonp.get( url )
+                .map( res=> res.json());
+
+  }
+
 
 }

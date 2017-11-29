@@ -206,7 +206,37 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 	- Inyectarlo en constructor
 	- Usarlo en la funcion `buscarPelicula`
 
-6. Importar la clase `ActivatedRoute` en el componente `buscar`
+6. Importar la interfaz `ActivatedRoute` en el componente `buscar`
 	- Inyectarlo en constructor
 	- Usarlo en el constructor
+
+## PANTALLA DE PELÍCULA
+	
+	Recursos:
+		- https://developers.themoviedb.org/3/getting-started/append-to-response
+		- https://getbootstrap.com/docs/4.0/components/badge/
+
+1. Codear la vista del componente `pelicula`
+
+2. Añadir la propiedad pelicula en el componente `pelicula`
+
+3. Modificar la ruta de la pelicula en el archivo de configuracion de rutas `app.routes.ts`
+	- { path: 'pelicula/:id/:pagina', component: PeliculaComponent },
+
+4. Importar el servicio `PeliculasServicio` y la interfaz `ActivatedRoute`
+	- Inyectarlos en el constructor 
+
+5. Añadir la propiedad `RouterLink` en la vista del componente `galeria`
+
+6. Añadir la clase `puntero` (Estilo CSS)
+
+7. Codear servicio para obtener toda la informacion de la pelicula `getPelicula`
+
+8. Codear el la llamada del servicio `getPelicula` desde el constructor del componente `pelicula`
+
+9. Modificar el pipe `PeliculaImagenPipe`
+
+10. Utilizar el badge `Primary` de `Contextual variations` (Segundo Recurso) en la vista del componente pelicula
+
+11. Codear la vista del componente `pelicula`
 
