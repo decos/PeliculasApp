@@ -240,3 +240,23 @@ De esta forma, una función ya definida en el entorno de JavaScript podría mani
 
 11. Codear la vista del componente `pelicula`
 
+## DETALLES FINALES DE LA APLICACIÓN DE PELÍCULAS
+
+1. Añadir un boton debajo del `Voto Promedio`
+
+2. Añadir la propiedad `routerLink` al nuevo boton creado 
+
+3. Crear la variable `regresarA` e incluirlo en el constructor del componente `pelicula`
+
+4. Codear el boton `Ver más...` del componente buscar
+
+5. Modificar la ruta `pelicula`, añadirle el parametro de `busqueda`
+
+6. Añadir en la vista del componente `buscar`, el parametro `buscar` al `routerLink`
+
+7. Añadir en la vista del componente `pelicula`, el parametro `busqueda` al `routerLink`
+
+8. Crear la variable `busqueda` e incluirlo en el constructor del componente `pelicula`
+
+9. Añadir el nombre de cada pelicula en el componente `galeria`
+
